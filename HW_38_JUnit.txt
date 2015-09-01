@@ -1,0 +1,76 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for core:HW_38_JUnit:jar:1.8
+[WARNING] 'version' contains an expression but should be a constant. @ core:HW_38_JUnit:${version}, C:\DEV\JAVA\WorkspaceS\L2T\HW_38_JUnit_Runner\HW_38_JUnit\pom.xml, line 7, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building HW_38_JUnit 1.8
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ HW_38_JUnit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\DEV\JAVA\WorkspaceS\L2T\HW_38_JUnit_Runner\HW_38_JUnit\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ HW_38_JUnit ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\DEV\JAVA\WorkspaceS\L2T\HW_38_JUnit_Runner\HW_38_JUnit\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ HW_38_JUnit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\DEV\JAVA\WorkspaceS\L2T\HW_38_JUnit_Runner\HW_38_JUnit\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ HW_38_JUnit ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\DEV\JAVA\WorkspaceS\L2T\HW_38_JUnit_Runner\HW_38_JUnit\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ HW_38_JUnit ---
+[INFO] Surefire report directory: C:\DEV\JAVA\WorkspaceS\L2T\HW_38_JUnit_Runner\HW_38_JUnit\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running core.AppTest
+BeforeClass method will be executed before first test method starts
+Before method will execute before every test method
+Test_07_assertFalse_Positive
+After method will execute after every test method
+Before method will execute before every test method
+Test_04_AssertSame_Positive
+After method will execute after every test method
+Before method will execute before every test method
+Test_09_assertTrue_Positive
+After method will execute after every test method
+Before method will execute before every test method
+Test_05_AssertSame_Negative
+After method will execute after every test method
+Before method will execute before every test method
+Test_10_assertTrue_Negative
+After method will execute after every test method
+Before method will execute before every test method
+Test_01_assertEquals_Positive
+After method will execute after every test method
+Before method will execute before every test method
+Test_08_assertFalse_Negative
+After method will execute after every test method
+Before method will execute before every test method
+Test_02_assertEquals_Negative
+After method will execute after every test method
+AfterClass method will be executed after last test method completed
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.061 sec
+
+Results :
+
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 2
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.505 s
+[INFO] Finished at: 2015-09-01T00:39:07-07:00
+[INFO] Final Memory: 13M/231M
+[INFO] ------------------------------------------------------------------------
