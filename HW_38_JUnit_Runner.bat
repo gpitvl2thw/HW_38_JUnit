@@ -1,1 +1,0 @@
-HW_38_JUnit.bat gpitvl2thw HW_38_JUnit 1.8
